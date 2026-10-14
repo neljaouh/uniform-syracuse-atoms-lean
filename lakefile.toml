@@ -1,0 +1,390 @@
+name = "syracuse_paper_proofs"
+defaultTargets = ["CheckPaper"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+Elab.async = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "5450b53e5ddc75d46418fabb605edbf36bd0beb6"
+
+[[lean_lib]]
+name = "ReportCore"
+
+[[lean_lib]]
+name = "Words"
+
+[[lean_lib]]
+name = "ResidueCounting"
+
+[[lean_lib]]
+name = "ConcreteKernel"
+
+[[lean_lib]]
+name = "Transport"
+
+[[lean_lib]]
+name = "FiniteTransport"
+
+[[lean_lib]]
+name = "PaperProofs"
+
+[[lean_lib]]
+name = "Projection"
+
+[[lean_lib]]
+name = "SyracuseLaw"
+
+[[lean_lib]]
+name = "MainStatements"
+
+[[lean_lib]]
+name = "Composition"
+
+[[lean_lib]]
+name = "CheckPaper"
+
+[[lean_lib]]
+name = "Cylinder"
+
+[[lean_lib]]
+name = "UnitProjection"
+
+[[lean_lib]]
+name = "PaperStatements"
+
+[[lean_lib]]
+name = "Minimum"
+
+[[lean_lib]]
+name = "BoundedInverseArithmetic"
+
+[[lean_lib]]
+name = "BoundedInverse"
+
+[[lean_lib]]
+name = "MinimumLimit"
+
+[[lean_lib]]
+name = "Criterion"
+
+[[lean_lib]]
+name = "BlockScales"
+
+[[lean_lib]]
+name = "BlockFamilies"
+
+[[lean_lib]]
+name = "Seeds"
+
+[[lean_lib]]
+name = "TransportLaw"
+
+[[lean_lib]]
+name = "WordOuter"
+
+[[lean_lib]]
+name = "TransportAllWords"
+
+[[lean_lib]]
+name = "WordProbability"
+
+[[lean_lib]]
+name = "BlockProduct"
+
+[[lean_lib]]
+name = "MinimumRate"
+
+[[lean_lib]]
+name = "BlockGrowth"
+
+[[lean_lib]]
+name = "Erdos1135"
+moreLeanArgs = ["-DautoImplicit=true", "-DrelaxedAutoImplicit=true", "-Dbackward.isDefEq.respectTransparency=false"]
+
+
+
+
+
+
+
+[[lean_lib]]
+name = "AtomFloorBridge"
+
+[[lean_lib]]
+name = "AuditProofs"
+
+[[lean_lib]]
+name = "LawIdentification"
+
+[[lean_lib]]
+name = "MixingBridge"
+
+[[lean_lib]]
+name = "HaarCylinders"
+
+[[lean_lib]]
+name = "HaarReference"
+
+[[lean_lib]]
+name = "UnitHaar"
+
+[[lean_lib]]
+name = "HaarCylinderBasis"
+
+[[lean_lib]]
+name = "SyracuseLimit"
+
+[[lean_lib]]
+name = "Stationarity"
+
+[[lean_lib]]
+name = "HaarDensitySteps"
+
+[[lean_lib]]
+name = "HaarDensityLimit"
+
+[[lean_lib]]
+name = "UnitDensitySteps"
+
+[[lean_lib]]
+name = "ResearchLpConsequences"
+
+[[lean_lib]]
+name = "ResearchCollisionFibre"
+
+[[lean_lib]]
+name = "ResearchWordLaw"
+
+[[lean_lib]]
+name = "ResearchWordFibre"
+
+[[lean_lib]]
+name = "ResearchWordMass"
+
+[[lean_lib]]
+name = "ResearchWeightedCauchy"
+
+[[lean_lib]]
+name = "ResearchTiltedLetter"
+
+[[lean_lib]]
+name = "ResearchTiltedWords"
+
+[[lean_lib]]
+name = "ResearchTiltedMoments"
+
+[[lean_lib]]
+name = "ResearchOffsetMoments"
+
+[[lean_lib]]
+name = "ResearchGeometricMoments"
+
+[[lean_lib]]
+name = "ResearchMixedOffset"
+
+[[lean_lib]]
+name = "ResearchMixedSecond"
+
+[[lean_lib]]
+name = "HaarDensityMeasure"
+
+[[lean_lib]]
+name = "UnitDensityLimit"
+
+[[lean_lib]]
+name = "UnitDensityFloor"
+
+[[lean_lib]]
+name = "UnitDensityModel"
+
+[[lean_lib]]
+name = "TheoremB"
+
+[[lean_lib]]
+name = "BlockMoment"
+
+[[lean_lib]]
+name = "BlockWindowBounds"
+
+[[lean_lib]]
+name = "BlockTail"
+
+[[lean_lib]]
+name = "BlockRejectionSummable"
+
+[[lean_lib]]
+name = "BlockAcceptance"
+
+
+[[lean_lib]]
+name = "SelectedAffineBounds"
+
+[[lean_lib]]
+name = "SelectedKernel"
+
+[[lean_lib]]
+name = "SelectedIncrementSummability"
+
+[[lean_lib]]
+name = "CountingTransfer"
+
+[[lean_lib]]
+name = "SignedWordPredecessors"
+
+[[lean_lib]]
+name = "WordBarrier"
+
+
+
+[[lean_lib]]
+name = "WordFamilyMass"
+
+[[lean_lib]]
+name = "SelectedDensityBasics"
+
+[[lean_lib]]
+name = "SelectedTransportIdentities"
+
+[[lean_lib]]
+name = "SelectedCoreWitness"
+
+[[lean_lib]]
+name = "SelectedDensityIncrement"
+
+[[lean_lib]]
+name = "FlexibleSelectedDensity"
+
+[[lean_lib]]
+name = "SelectedDepthCoverage"
+
+[[lean_lib]]
+name = "TerminalBandAcceptance"
+
+[[lean_lib]]
+name = "TerminalBandTransport"
+
+
+[[lean_lib]]
+name = "WordMassPigeonhole"
+
+[[lean_lib]]
+name = "CorePositiveApproximants"
+
+[[lean_lib]]
+name = "ActualAdmissibleFamilies"
+
+
+
+
+[[lean_lib]]
+name = "CheckMainTheorems"
+
+
+
+
+[[lean_lib]]
+name = "SelectedScheduleAsymptotics"
+
+
+[[lean_lib]]
+name = "CountingCompletion"
+
+[[lean_lib]]
+name = "DensityEnergy"
+
+[[lean_lib]]
+name = "DensityRegularity"
+
+[[lean_lib]]
+name = "DensitySpikes"
+
+[[lean_lib]]
+name = "SmoothingPrinciple"
+
+[[lean_lib]]
+name = "QuantitativeFamilies"
+
+[[lean_lib]]
+name = "MixingThresholds"
+
+[[lean_lib]]
+name = "BalancedSubpowerFamilies"
+
+[[lean_lib]]
+name = "QuantitativeCounting"
+
+[[lean_lib]]
+name = "DensityGeometry"
+
+[[lean_lib]]
+name = "OffsetLaws"
+
+[[lean_lib]]
+name = "EntropyObstruction"
+
+[[lean_lib]]
+name = "ExtendedStatements"
+
+[[lean_lib]]
+name = "SignedReflection"
+
+[[lean_lib]]
+name = "SubpowerCutoffs"
+
+[[lean_lib]]
+name = "DensitySpikeGeometry"
+
+[[lean_lib]]
+name = "SquareRootProfile"
+
+[[lean_lib]]
+name = "SquareRootWords"
+
+[[lean_lib]]
+name = "SquareRootConstruction"
+
+[[lean_lib]]
+name = "SquareRootFamilies"
+
+[[lean_lib]]
+name = "SquareRootCutoffs"
+
+[[lean_lib]]
+name = "SquareRootCounting"
+
+[[lean_lib]]
+name = "ResearchFibrePartition"
+
+[[lean_lib]]
+name = "ResearchCollisionUpper"
+
+[[lean_lib]]
+name = "ResearchExplicitMoments"
+
+[[lean_lib]]
+name = "ResearchExplicitCollision"
+
+[[lean_lib]]
+name = "ResearchDensityIncrements"
+
+[[lean_lib]]
+name = "ResearchInterpolation"
+
+[[lean_lib]]
+name = "ResearchIncrementMoments"
+
+[[lean_lib]]
+name = "ResearchIncrementNorms"
+
+[[lean_lib]]
+name = "ResearchSubcriticalDensity"
+
+[[lean_lib]]
+name = "ResearchDensitySpectrum"
+
+[[lean_lib]]
+name = "IntegrabilityStatements"

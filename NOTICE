@@ -1,0 +1,7 @@
+The paper-specific Lean source accompanies the manuscript by Naoufal El Jaouhari.
+
+This repository also contains the public source closure for the fine-scale
+mixing formalization. Its original copyright and attribution notices are
+retained in NOTICE.mixing-source and notices/M2/. The source-origins.json
+records the corresponding source release and file checksums. Mathlib and its
+dependencies are fetched separately and retain their own licenses.
