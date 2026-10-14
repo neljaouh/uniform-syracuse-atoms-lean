@@ -7,7 +7,7 @@ proposition specification and a closed theorem of that type. Missing
 specifications are reported, not replaced by axioms or trivial propositions.
 Statement-to-manuscript correspondence must still be reviewed mathematically.
 No success is reported for a partially formalized manuscript.
-Manuscript SHA256: 553ca2aa8dc2a0924ae89590e022c8e61975e2964bc391f82e525f3e6cbd0745
+Manuscript SHA256: 93b001f062794cbec6efe142bb382c983f64a7a1d0db10e72b44003dc9966521
 -/
 
 open Lean Elab Command Meta in
