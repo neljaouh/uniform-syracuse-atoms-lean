@@ -3,7 +3,7 @@
 This independent Lean project contains the source needed to check the named
 results of *Uniform Syracuse atoms and exact density regularity with
 quantitative Collatz predecessor counts*. The corresponding manuscript has
-SHA-256 `2aa3d526be4ff8b1c746d42a8c1135819f385b3e254ba5351fcc0ba8d3631b17`.
+SHA-256 `cf11a35dc2f8dbe95949611354e4ce60dcdb7d443820bcd0c81154dc9858898d`.
 The paper source and unrelated research files are outside this repository.
 
 The Lean version is pinned in `lean-toolchain`; Mathlib and its dependencies
